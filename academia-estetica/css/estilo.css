@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+  .btnn {
+    background-color: #3498db; /* Azul brillante */
+    color: #fff; /* Blanco */
+    border: none;
+    border-radius: 50px; /* Bordes redondeados */
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); /* Sombra sutil */
+  }
+  
+  .btnn:hover {
+    background-color: #2980b9; /* Azul ligeramente más oscuro al pasar el mouse */
+  }
+  
+  .btnn:active {
+    background-color: #63696d; /* Azul oscuro al hacer clic */
+    box-shadow: 0 5px 10px rgba(197, 53, 53, 0.25); /* Sombra más profunda al hacer clic */
+  }
+  
