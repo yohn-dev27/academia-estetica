@@ -7,7 +7,7 @@
       $host='localhost';
       $dbname='Consuelo';
       $username='sa';
-      $pasword='1234';aqui
+      $pasword='1234';
       $puerto= 1433;
 
       try{
